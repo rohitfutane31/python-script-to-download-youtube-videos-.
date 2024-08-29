@@ -23,7 +23,7 @@ o	print("Ratings :", yt.rating): Print the video's average rating.
 5.	Downloading the Video:
 o	download_option = input("Do you want to download this video? (yes/no): ").lower(): Ask the user if they want to download the video. The answer is converted to lowercase for easier comparison.
 o	If the user chooses "yes":
-	url = 'https://youtube.com/shorts/skdXa3Q61HE?si=nHklaHieslhrsGxm': Define the URL of the video to be downloaded (in this case, a specific YouTube Shorts video).
+	url = (link past) Define the URL of the video to be downloaded (in this case, a specific YouTube Shorts video).
 	ydl_opts = {'format': 'best'}: Set the download options, specifying that the best quality available should be downloaded.
 	with YoutubeDL(ydl_opts) as ydl: Use the YoutubeDL class to download the video using the specified options.
 	ydl.download([url]): Start downloading the video.
